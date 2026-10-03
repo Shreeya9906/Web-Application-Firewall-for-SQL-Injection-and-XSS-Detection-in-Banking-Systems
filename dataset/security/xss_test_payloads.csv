@@ -1,0 +1,5 @@
+request,label,attack_type,endpoint,http_method
+<script>alert('XSS')</script>,1,XSS,/search,GET
+<img src=x onerror=alert(1)>,1,XSS,/dashboard,GET
+javascript:alert(1),1,XSS,/beneficiary,POST
+<svg/onload=alert('XSS')>,1,XSS,/search,GET

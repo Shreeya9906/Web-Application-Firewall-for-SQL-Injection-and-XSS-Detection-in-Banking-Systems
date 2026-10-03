@@ -1,0 +1,5 @@
+request,label,attack_type,endpoint,http_method
+john_doe,0,NORMAL,/login,POST
+10500,0,NORMAL,/transfer,POST
+saving account,0,NORMAL,/search,GET
+123,0,NORMAL,/account/123,GET

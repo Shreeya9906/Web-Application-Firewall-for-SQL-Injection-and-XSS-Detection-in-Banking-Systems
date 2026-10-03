@@ -1,0 +1,6 @@
+request,label,attack_type,endpoint,http_method
+' OR 1=1 --,1,SQL_INJECTION,/login,POST
+admin' --,1,SQL_INJECTION,/login,POST
+1; DROP TABLE users,1,SQL_INJECTION,/account/1,GET
+"' UNION SELECT username, password FROM users--",1,SQL_INJECTION,/search,GET
+1 AND SLEEP(5),1,SQL_INJECTION,/account/1,GET
